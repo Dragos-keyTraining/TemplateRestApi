@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" parallel="tests" thread-count="2">
+    <test name="RestApi" >
+
+        <classes>
+            <class name="tests.BaseComponetExample" ></class>       
+        </classes>
+    </test>
+  
+
+</suite>

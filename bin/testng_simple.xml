@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" parallel="tests" thread-count="2">
+
+    <!--Example Listener so there is no need to call it on each individual methods  -->
+    	<listeners>
+    		<listener class-name = "utils.TestNgListener" />
+    	</listeners>
+
+    <test name="Chrome" >
+
+    <!-- Example Parameters used inside tests methods as test data -->
+    	<parameter name ="user" value="TestUser" />
+    	<parameter name ="pass" value="12345@67890" />
+    	 <parameter name ="invuser" value="invalid user" />
+    	<parameter name ="invpass" value="invalid pass" />
+    	
+    	<!-- Parameters used as configuration for the test framework 
+    	 browser : sets the browser on which the tests will run
+    	 appUrl  : sets the application url on which the tests will run
+    	 Both parameters are used in the /utils/BaseTest.class on the <setup> method -->
+    	
+    	<parameter name = "browser" value = "chrome" />
+    	<parameter name = "appUrl" value = "https://keybooks.ro" />
+    	
+    	
+        <!-- Example class that is being run by this config file. Path is: package.class -->
+        <classes>
+            <class name="tests.LoginTest" ></class>       
+        </classes>
+    </test>
+  
+
+</suite>
