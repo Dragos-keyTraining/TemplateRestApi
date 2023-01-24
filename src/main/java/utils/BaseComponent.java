@@ -19,25 +19,21 @@ public class BaseComponent {
 	public static RequestSpecification requestSpec;
 	public static ResponseSpecification responseSpec;
 	
-	@Parameters({"baseURL"})
+	@Parameters({"baseUrl"})
 	@BeforeClass
 	public static void createRequestSpecification(String baseUrl) {
 		
 		requestSpec =  new RequestSpecBuilder()
 				.setBaseUri(baseUrl)
-				.setBasePath("api/")
 				.setContentType(ContentType.JSON)
 				.addHeader("accept", "application/json")
 				.build();
-	}
-	
-	@BeforeClass
-	public static void createResponseSpecification() {
 		
 		responseSpec =  new ResponseSpecBuilder()
 				.expectStatusCode(anyOf(is(200),is(201),is(204)))
 				.build();	
 	}
+
 	
 public static Response doPostRequest(String path,String todo) {
 		
@@ -46,7 +42,7 @@ public static Response doPostRequest(String path,String todo) {
 					spec(requestSpec).
 					body(todo).
 				when().
-					post().
+					post(path).
 				then().
 					spec(responseSpec).
 					extract().response();		
