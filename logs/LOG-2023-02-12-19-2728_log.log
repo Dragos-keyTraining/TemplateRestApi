@@ -1,0 +1,40 @@
+19:27:28.162 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++
+19:27:28.165 [TestNG-tests-1] INFO  utils.Log - +++ Started test case : postANewTodo
+19:27:28.165 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+19:27:28.168 [TestNG-tests-1] INFO  utils.Log - Start time : 2023.02.12.19.27.28
+19:27:28.168 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+19:27:30.948 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++
+19:27:30.949 [TestNG-tests-1] INFO  utils.Log - +++ Pass test case : postANewTodo
+19:27:30.949 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+19:27:30.950 [TestNG-tests-1] INFO  utils.Log - End time : 2023.02.12.19.27.30
+19:27:30.950 [TestNG-tests-1] INFO  utils.Log - --------------------------------------------------
+19:27:30.960 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++
+19:27:30.960 [TestNG-tests-1] INFO  utils.Log - +++ Started test case : updateATodo
+19:27:30.960 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+19:27:30.960 [TestNG-tests-1] INFO  utils.Log - Start time : 2023.02.12.19.27.30
+19:27:30.960 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+19:27:31.568 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++
+19:27:31.569 [TestNG-tests-1] INFO  utils.Log - +++ Pass test case : updateATodo
+19:27:31.569 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+19:27:31.569 [TestNG-tests-1] INFO  utils.Log - End time : 2023.02.12.19.27.31
+19:27:31.569 [TestNG-tests-1] INFO  utils.Log - --------------------------------------------------
+19:27:31.572 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++
+19:27:31.572 [TestNG-tests-1] INFO  utils.Log - +++ Started test case : getATodo
+19:27:31.572 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+19:27:31.573 [TestNG-tests-1] INFO  utils.Log - Start time : 2023.02.12.19.27.31
+19:27:31.573 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+19:27:32.021 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++
+19:27:32.022 [TestNG-tests-1] INFO  utils.Log - +++ Pass test case : getATodo
+19:27:32.022 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+19:27:32.022 [TestNG-tests-1] INFO  utils.Log - End time : 2023.02.12.19.27.32
+19:27:32.022 [TestNG-tests-1] INFO  utils.Log - --------------------------------------------------
+19:27:32.024 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++
+19:27:32.025 [TestNG-tests-1] INFO  utils.Log - +++ Started test case : deleteTodo
+19:27:32.025 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+19:27:32.025 [TestNG-tests-1] INFO  utils.Log - Start time : 2023.02.12.19.27.32
+19:27:32.026 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+19:27:32.451 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++
+19:27:32.451 [TestNG-tests-1] INFO  utils.Log - +++ Pass test case : deleteTodo
+19:27:32.451 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+19:27:32.451 [TestNG-tests-1] INFO  utils.Log - End time : 2023.02.12.19.27.32
+19:27:32.452 [TestNG-tests-1] INFO  utils.Log - --------------------------------------------------

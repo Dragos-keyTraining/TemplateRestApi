@@ -4,6 +4,10 @@ import org.json.simple.JSONObject;
 
 import com.github.javafaker.Faker;
 
+/**
+ * Example class for building the json objects to be used as test data inside the calls
+ *
+ */
 public class DataBuilder {
 
 	@SuppressWarnings("unchecked")

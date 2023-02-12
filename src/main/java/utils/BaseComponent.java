@@ -12,16 +12,23 @@ import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 import static org.hamcrest.Matchers.*;
 
+import org.json.simple.JSONObject;
+
 import static io.restassured.RestAssured.given;
 
 public class BaseComponent {
 	
-	public static RequestSpecification requestSpec;
-	public static ResponseSpecification responseSpec;
+	public  RequestSpecification requestSpec;
+	public  ResponseSpecification responseSpec;
 	
+	/**
+	 * Pre and post condition method for the HTTP calls.
+	 * Sets generic configuration to be run before and after each call
+	 * @param baseUrl (provided from testng.xml)
+	 */
 	@Parameters({"baseUrl"})
 	@BeforeClass
-	public static void createRequestSpecification(String baseUrl) {
+	public  void createRequestSpecification(String baseUrl) {
 		
 		requestSpec =  new RequestSpecBuilder()
 				.setBaseUri(baseUrl)
@@ -34,8 +41,14 @@ public class BaseComponent {
 				.build();	
 	}
 
-	
-public static Response doPostRequest(String path,String todo) {
+	/**
+	 * Generic method that uses POST as http method
+	 * Enhanced with rquest and response specification
+	 * @param path (specific concatenation that needs to be done over the baseURI and basePath)
+	 * @param body (body as String object)
+	 * @return the call response 
+	 */
+	public Response doPostRequest(String path,String todo) {
 		
 		Response result = 
 				given().
@@ -49,8 +62,14 @@ public static Response doPostRequest(String path,String todo) {
 		return result;
 		
 	}
-	
-	public static Response doPutRequest(String path, String body) {
+	/**
+	 * Generic method that uses PUT as http method
+	 * Enhanced with rquest and response specification
+	 * @param path (specific concatenation that needs to be done over the baseURI and basePath)
+	 * @param body (body as String object)
+	 * @return the call response 
+	 */
+	public Response doPutRequest(String path, String body) {
 		
 		Response result = 
 				given().
@@ -65,8 +84,12 @@ public static Response doPostRequest(String path,String todo) {
 		
 	}
 	
-	
-	public static Response doGetRequest(String path) {
+	/**
+	 * Generic method that uses GET as http method
+	 * @param path (specific concatenation that needs to be done over the baseURI and basePath)
+	 * @return the call response 
+	 */
+	public Response doGetRequest(String path) {
 		
 		Response result = 
 				given().
@@ -79,7 +102,11 @@ public static Response doPostRequest(String path,String todo) {
 		return result;
 	}
 	
-	public static Response doGetAllRequest() {
+	/**
+	 * Generic method that uses GET as http method with no specified path
+	 * @return the call response 
+	 */
+	public Response doGetAllRequest() {
 		
 		Response result = 
 				given().
@@ -92,8 +119,12 @@ public static Response doPostRequest(String path,String todo) {
 		return result;
 	}
 	
-	
-	public static Response doDeleteRequest(String path) {
+	/**
+	 * Generic method that uses DELETE as http method
+	 * @param path (specific concatenation that needs to be done over the baseURI and basePath)
+	 * @return the call response 
+	 */
+	public Response doDeleteRequest(String path) {
 		Response result = 
 				given().
 					spec(requestSpec).

@@ -1,0 +1,41 @@
+19:26:29.175 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++
+19:26:29.178 [TestNG-tests-1] INFO  utils.Log - +++ Started test case : postANewTodo
+19:26:29.178 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+19:26:29.181 [TestNG-tests-1] INFO  utils.Log - Start time : 2023.02.12.19.26.29
+19:26:29.181 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+19:26:32.076 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++
+19:26:32.077 [TestNG-tests-1] INFO  utils.Log - +++ Pass test case : postANewTodo
+19:26:32.077 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+19:26:32.078 [TestNG-tests-1] INFO  utils.Log - End time : 2023.02.12.19.26.32
+19:26:32.078 [TestNG-tests-1] INFO  utils.Log - --------------------------------------------------
+19:26:32.086 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++
+19:26:32.087 [TestNG-tests-1] INFO  utils.Log - +++ Started test case : updateATodo
+19:26:32.087 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+19:26:32.087 [TestNG-tests-1] INFO  utils.Log - Start time : 2023.02.12.19.26.32
+19:26:32.087 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+19:26:32.205 [TestNG-tests-1] ERROR utils.Log - +++++++++++++++++++++++++++++++++++++++++++++
+19:26:32.205 [TestNG-tests-1] ERROR utils.Log - +++ Failed test case : updateATodo
+19:26:32.205 [TestNG-tests-1] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+19:26:32.205 [TestNG-tests-1] ERROR utils.Log - Failed time : 2023.02.12.19.26.32
+19:26:32.206 [TestNG-tests-1] ERROR utils.Log - java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+19:26:32.207 [TestNG-tests-1] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+19:26:32.210 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++
+19:26:32.210 [TestNG-tests-1] INFO  utils.Log - +++ Started test case : getATodo
+19:26:32.210 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+19:26:32.210 [TestNG-tests-1] INFO  utils.Log - Start time : 2023.02.12.19.26.32
+19:26:32.211 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+19:26:32.719 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++
+19:26:32.719 [TestNG-tests-1] INFO  utils.Log - +++ Pass test case : getATodo
+19:26:32.719 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+19:26:32.720 [TestNG-tests-1] INFO  utils.Log - End time : 2023.02.12.19.26.32
+19:26:32.720 [TestNG-tests-1] INFO  utils.Log - --------------------------------------------------
+19:26:32.724 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++
+19:26:32.724 [TestNG-tests-1] INFO  utils.Log - +++ Started test case : deleteTodo
+19:26:32.724 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+19:26:32.725 [TestNG-tests-1] INFO  utils.Log - Start time : 2023.02.12.19.26.32
+19:26:32.726 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+19:26:33.140 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++
+19:26:33.140 [TestNG-tests-1] INFO  utils.Log - +++ Pass test case : deleteTodo
+19:26:33.140 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++++++++++++
+19:26:33.140 [TestNG-tests-1] INFO  utils.Log - End time : 2023.02.12.19.26.33
+19:26:33.140 [TestNG-tests-1] INFO  utils.Log - --------------------------------------------------
